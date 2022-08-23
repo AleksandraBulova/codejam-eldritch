@@ -65,7 +65,7 @@ body {
 }
 
 .button_level {
-  width: 10%;
+  width: 11%;
   height: 35px;
 
   font-family: sans-serif;
@@ -119,11 +119,17 @@ body {
   display: none;
 }
 
-.card-deck-diagram {
-  display: none;
+.wrapper_game {
+  display: none;;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.card-deck-diagram.active {
+.wrapper_game.active {
+  display: flex;
+}
+
+.card-deck-diagram{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,14 +159,41 @@ h2 {
   border-radius: 50%;
 }
 
-.dot_green {
+.green {
   background-color: green;
 }
 
-.dot_brown {
+.brown {
   background-color: brown;
 }
 
-.dot_blue {
+.blue {
   background-color: blue;
+}
+
+.cards {
+  display: flex;
+  gap: 70px;
+}
+
+.cards-deck,
+.card {
+  width: 150px;
+  height: 210px;
+
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.cards-deck {
+  background-image: url(./assets/mythicCardBackground.png);
+  cursor: pointer;
+}
+
+.cards-deck:hover {
+  border: 2px solid #000;
+  transform: scale(1.05);
 }

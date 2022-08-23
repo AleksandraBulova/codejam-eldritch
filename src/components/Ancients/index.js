@@ -1,7 +1,5 @@
-const AZATHOTH = document.querySelector('.Azathoth')
-const CTHULTHU = document.querySelector('.Cthulthu')
-const LOG_SOTHOTH = document.querySelector('.LogSothoth')
-const SHUB_NIGGURATH = document.querySelector('.ShubNiggurath')
+import { BUTTON_CREATE_CARD_DESK, WRAPPER_GAME } from "../Game"
+
 const ANCIENT = document.querySelectorAll('.ancient')
 
 for(let i = 0; i < ANCIENT.length; i++) {
@@ -12,5 +10,9 @@ for(let i = 0; i < ANCIENT.length; i++) {
       }
     })
     ANCIENT[i].classList.add('active')
+    BUTTON_CREATE_CARD_DESK.classList.remove('inactive')
+    WRAPPER_GAME.classList.remove('active')
   })
 }
+
+
