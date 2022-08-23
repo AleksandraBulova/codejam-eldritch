@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+  background-image: url(./assets/home.png);
+}
+
+.list_ancients {
+  display: flex;
+  justify-content: space-around;
+
+  padding-top: 30px;
+}
+
+.ancient {
+  width: 200px;
+  height: 260px;
+
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.ancient:hover {
+  border: 3px solid #000;
+  transform: scale(1.10);
+}
+
+.ancient.active {
+  border: 2px solid red;
+}
+
+.Azathoth {
+  background-image: url(./assets/Ancients/Azathoth.png);
+}
+
+.Cthulthu {
+  background-image: url(./assets/Ancients/Cthulthu.png);
+}
+
+.LogSothoth {
+  background-image: url(./assets/Ancients/LogSothoth.png);
+}
+
+.ShubNiggurath {
+  background-image: url(./assets/Ancients//ShubNiggurath.png);
+}
