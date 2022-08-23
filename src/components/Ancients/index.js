@@ -1,8 +1,8 @@
-AZATHOTH = document.querySelector('.Azathoth')
-CTHULTHU = document.querySelector('.Cthulthu')
-LOG_SOTHOTH = document.querySelector('.LogSothoth')
-SHUB_NIGGURATH = document.querySelector('.ShubNiggurath')
-ANCIENT = document.querySelectorAll('.ancient')
+const AZATHOTH = document.querySelector('.Azathoth')
+const CTHULTHU = document.querySelector('.Cthulthu')
+const LOG_SOTHOTH = document.querySelector('.LogSothoth')
+const SHUB_NIGGURATH = document.querySelector('.ShubNiggurath')
+const ANCIENT = document.querySelectorAll('.ancient')
 
 for(let i = 0; i < ANCIENT.length; i++) {
   ANCIENT[i].addEventListener('click', () => {
