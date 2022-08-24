@@ -156,7 +156,8 @@ h2 {
   width: 40px;
   height: 40px;
 
-  border-radius: 50%;
+  font-size: 20px;
+  border-radius: 25%;
 }
 
 .green {
@@ -196,4 +197,12 @@ h2 {
 .cards-deck:hover {
   border: 2px solid #000;
   transform: scale(1.05);
+}
+
+.cards-deck.inactive {
+  display: none;
+}
+
+.card.inactive {
+  display: none;
 }
