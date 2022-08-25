@@ -3,6 +3,7 @@ import { cardsData } from "../Cards/dataCards"
 
 export const BUTTON_CREATE_CARD_DESK = document.querySelector('.button-create_card-deck')
 export const WRAPPER_GAME = document.querySelector('.wrapper_game')
+
 const CARD_DESK = document.querySelector('.cards-deck')
 const CARD = document.querySelector('.card')
 
@@ -80,7 +81,7 @@ let round3 = []
 export const curentState = () => {
 
   if(VERY_EASY_LEVEL.classList.contains('active')) {
-
+    veryEasyLevel()
   }
   if(EASY_LEVEL.classList.contains('active')) {
     easyLevel()
@@ -92,7 +93,7 @@ export const curentState = () => {
     highLevel()
   }
   if(VERY_HIGH_LEVEL.classList.contains('active')) {
-    
+    veryHighLevel()
   }
 
 }
@@ -101,10 +102,32 @@ let arrayGreen = []
 let arrayBrown = []
 let arrayBlue = []
 
+const veryEasyLevel = () => {
+  arrayGreen = [...arrayCardsDeskGreenEasy]
+  while(arrayGreen.length < 6) {
+    arrayGreen.push(arrayCardsDeskGreenNormal[Math.floor(Math.random() * (arrayCardsDeskGreenNormal.length))])
+  }
+  arrayBrown = [...arrayCardsDeskBrownEasy]
+  while(arrayBrown.length < 9) {
+    arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
+  }
+  arrayBlue = [...arrayCardsDeskBlueEasy]
+
+  console.log(arrayGreen, 'Зеленные')
+  console.log(arrayBrown, 'Коричневые')
+  console.log(arrayBlue, 'Синии')
+  
+  level()
+}
+
 const easyLevel = () => {
   arrayGreen = [...arrayCardsDeskGreenEasy, ...arrayCardsDeskGreenNormal]
   arrayBrown = [...arrayCardsDeskBrownEasy, ...arrayCardsDeskBrownNormal]
   arrayBlue = [...arrayCardsDeskBlueEasy, ...arrayCardsDeskBlueNormal]
+
+  console.log(arrayGreen, 'Зеленные')
+  console.log(arrayBrown, 'Коричневые')
+  console.log(arrayBlue, 'Синии')
 
   level()
 }
@@ -114,6 +137,10 @@ const mediumLevel = () => {
   arrayBrown = [...arrayCardsDeskBrown]
   arrayBlue = [...arrayCardsDeskBlue]
 
+  console.log(arrayGreen, 'Зеленные')
+  console.log(arrayBrown, 'Коричневые')
+  console.log(arrayBlue, 'Синии')
+
   level()
 }
 
@@ -122,6 +149,28 @@ const highLevel = () => {
   arrayBrown = [...arrayCardsDeskBrownNormal, ...arrayCardsDeskBrownHard]
   arrayBlue = [...arrayCardsDeskBlueNormal, ...arrayCardsDeskBlueHard]
 
+  console.log(arrayGreen, 'Зеленные')
+  console.log(arrayBrown, 'Коричневые')
+  console.log(arrayBlue, 'Синии')
+
+  level()
+}
+
+const veryHighLevel = () => {
+  arrayGreen = [...arrayCardsDeskGreenHard]
+  while(arrayGreen.length < 6) {
+    arrayGreen.push(arrayCardsDeskGreenNormal[Math.floor(Math.random() * (arrayCardsDeskGreenNormal.length))])
+  }
+  arrayBrown = [...arrayCardsDeskBrownHard]
+  while(arrayBrown.length < 9) {
+    arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
+  }
+  arrayBlue = [...arrayCardsDeskBlueHard]
+
+  console.log(arrayGreen, 'Зеленные')
+  console.log(arrayBrown, 'Коричневые')
+  console.log(arrayBlue, 'Синии')
+  
   level()
 }
 
@@ -332,8 +381,10 @@ const level = () => {
       round3.push(arrayBlue[Math.floor(Math.random() * (arrayBlue.length))])
     }
   }
+  console.log(round1, 'Этап1')
+  console.log(round2, 'Этап2')
+  console.log(round3, 'Этап3')
 }
-
 
 CARD_DESK.addEventListener('click', () => {
   CARD.classList.remove('inactive')
