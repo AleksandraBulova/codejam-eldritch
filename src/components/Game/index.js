@@ -466,6 +466,9 @@ CARD_DESK.addEventListener('click', () => {
       document.querySelector('.dot_blue3').innerHTML -= 1 
     }
     round3 = round3.filter((el, i) => i !== randomIndex)
+    if(round3.length === 0) {
+      CARD_DESK.classList.add('inactive')
+    }
   } else {
     CARD_DESK.classList.add('inactive')
   }
