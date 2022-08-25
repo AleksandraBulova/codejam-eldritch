@@ -104,13 +104,7 @@ let arrayBlue = []
 
 const veryEasyLevel = () => {
   arrayGreen = [...arrayCardsDeskGreenEasy]
-  while(arrayGreen.length < 6) {
-    arrayGreen.push(arrayCardsDeskGreenNormal[Math.floor(Math.random() * (arrayCardsDeskGreenNormal.length))])
-  }
   arrayBrown = [...arrayCardsDeskBrownEasy]
-  while(arrayBrown.length < 9) {
-    arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
-  }
   arrayBlue = [...arrayCardsDeskBlueEasy]
 
   console.log(arrayGreen, 'Зеленные')
@@ -158,13 +152,7 @@ const highLevel = () => {
 
 const veryHighLevel = () => {
   arrayGreen = [...arrayCardsDeskGreenHard]
-  while(arrayGreen.length < 6) {
-    arrayGreen.push(arrayCardsDeskGreenNormal[Math.floor(Math.random() * (arrayCardsDeskGreenNormal.length))])
-  }
   arrayBrown = [...arrayCardsDeskBrownHard]
-  while(arrayBrown.length < 9) {
-    arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
-  }
   arrayBlue = [...arrayCardsDeskBlueHard]
 
   console.log(arrayGreen, 'Зеленные')
@@ -179,6 +167,17 @@ const level = () => {
     round1 = []
     round2 = []
     round3 = []
+
+    if(VERY_EASY_LEVEL.classList.contains('active')) {
+      while(arrayBrown.length < 9) {
+        arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
+      }
+    }
+    if(VERY_HIGH_LEVEL.classList.contains('active')) {
+      while(arrayBrown.length < 9) {
+        arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
+      }
+    }
 
     document.querySelector('.dot_green1').innerHTML = ancientsData[0].firstStage.greenCards
     for(let i = 0; i < ancientsData[0].firstStage.greenCards; i++){
@@ -231,6 +230,17 @@ const level = () => {
     round2 = []
     round3 = []
 
+    if(VERY_EASY_LEVEL.classList.contains('active')) {
+      while(arrayBrown.length < 9) {
+        arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
+      }
+    }
+    if(VERY_HIGH_LEVEL.classList.contains('active')) {
+      while(arrayBrown.length < 9) {
+        arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
+      }
+    }
+
     document.querySelector('.dot_green1').innerHTML = ancientsData[1].firstStage.greenCards
     for(let i = 0; i < ancientsData[1].firstStage.greenCards; i++){
       round1.push(arrayGreen[Math.floor(Math.random() * (arrayGreen.length))])
@@ -257,7 +267,6 @@ const level = () => {
     }
 
     document.querySelector('.dot_blue2').innerHTML = ancientsData[1].secondStage.blueCards
-    console.log(ancientsData[1].secondStage.blueCards)
     for(let i = 0; i < ancientsData[1].secondStage.blueCards; i++){
       round2.push(arrayBlue[Math.floor(Math.random() * (arrayBlue.length))])
     }
@@ -283,6 +292,17 @@ const level = () => {
     round1 = []
     round2 = []
     round3 = []
+
+    if(VERY_EASY_LEVEL.classList.contains('active')) {
+      while(arrayBrown.length < 9) {
+        arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
+      }
+    }
+    if(VERY_HIGH_LEVEL.classList.contains('active')) {
+      while(arrayBrown.length < 9) {
+        arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
+      }
+    }
 
     document.querySelector('.dot_green1').innerHTML = ancientsData[2].firstStage.greenCards
     for(let i = 0; i < ancientsData[2].firstStage.greenCards; i++){
@@ -335,6 +355,23 @@ const level = () => {
     round1 = []
     round2 = []
     round3 = []
+
+    if(VERY_EASY_LEVEL.classList.contains('active')) {
+      while(arrayGreen.length < 6) {
+        arrayGreen.push(arrayCardsDeskGreenNormal[Math.floor(Math.random() * (arrayCardsDeskGreenNormal.length))])
+      }
+      while(arrayBrown.length < 8) {
+        arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
+      }
+    }
+    if(VERY_HIGH_LEVEL.classList.contains('active')) {
+      while(arrayGreen.length < 6) {
+        arrayGreen.push(arrayCardsDeskGreenNormal[Math.floor(Math.random() * (arrayCardsDeskGreenNormal.length))])
+      }
+      while(arrayBrown.length < 8) {
+        arrayBrown.push(arrayCardsDeskBrownNormal[Math.floor(Math.random() * (arrayCardsDeskBrownNormal.length))])
+      }
+    }
 
     document.querySelector('.dot_green1').innerHTML = ancientsData[3].firstStage.greenCards
     for(let i = 0; i < ancientsData[3].firstStage.greenCards; i++){
@@ -403,7 +440,6 @@ CARD_DESK.addEventListener('click', () => {
       document.querySelector('.dot_blue1').innerHTML -= 1 
     }
     round1 = round1.filter((el, i) => i !== randomIndex)
-    console.log('1')
   } else if (round2.length !== 0 ) {
     randomIndex = Math.floor(Math.random() * (round2.length))
     document.querySelector('.card').style.backgroundImage = `url(${round2[randomIndex].image})` 
@@ -417,7 +453,6 @@ CARD_DESK.addEventListener('click', () => {
       document.querySelector('.dot_blue2').innerHTML -= 1 
     }
     round2 = round2.filter((el, i) => i !== randomIndex)
-    console.log('2')
   } else if (round3.length !== 0) {
     randomIndex = Math.floor(Math.random() * (round3.length))
     document.querySelector('.card').style.backgroundImage = `url(${round3[randomIndex].image})` 
@@ -431,7 +466,6 @@ CARD_DESK.addEventListener('click', () => {
       document.querySelector('.dot_blue3').innerHTML -= 1 
     }
     round3 = round3.filter((el, i) => i !== randomIndex)
-    console.log('3')
   } else {
     CARD_DESK.classList.add('inactive')
   }
