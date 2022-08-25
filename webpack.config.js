@@ -5,7 +5,12 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
   entry: { index: path.resolve(__dirname, "src", "index.js") },
-  output: { path: path.resolve(__dirname, "build"), filename: "index.js", clean: true },
+  output: { 
+    path: path.resolve(__dirname, "build"), 
+    filename: "index.js", 
+    clean: true,
+    assetModuleFilename: 'images/[hash][ext][query]'
+  },
   devServer: {
     hot: true,
     open: true
@@ -31,7 +36,7 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource'
+        type: 'asset/resource',
       },
       {
         test: /\.mp3$/,

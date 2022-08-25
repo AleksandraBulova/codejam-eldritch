@@ -110,107 +110,107 @@ var ancientsData = [{
   }
 }];
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue1.png
-const blue1_namespaceObject = __webpack_require__.p + "09c8e5eb50dc7666f1aa.png";
+const blue1_namespaceObject = __webpack_require__.p + "images/09c8e5eb50dc7666f1aa.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue2.png
-const blue2_namespaceObject = __webpack_require__.p + "3cc352cdc8fade5dad4c.png";
+const blue2_namespaceObject = __webpack_require__.p + "images/3cc352cdc8fade5dad4c.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue3.png
-const blue3_namespaceObject = __webpack_require__.p + "fdd1d10ff513774eb841.png";
+const blue3_namespaceObject = __webpack_require__.p + "images/fdd1d10ff513774eb841.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue4.png
-const blue4_namespaceObject = __webpack_require__.p + "f09f0f715e525a0b50ec.png";
+const blue4_namespaceObject = __webpack_require__.p + "images/f09f0f715e525a0b50ec.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue5.png
-const blue5_namespaceObject = __webpack_require__.p + "e3e8792622b0c75c78c1.png";
+const blue5_namespaceObject = __webpack_require__.p + "images/e3e8792622b0c75c78c1.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue6.png
-const blue6_namespaceObject = __webpack_require__.p + "cf323c98a3f54632a66c.png";
+const blue6_namespaceObject = __webpack_require__.p + "images/cf323c98a3f54632a66c.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue7.png
-const blue7_namespaceObject = __webpack_require__.p + "4cdb1bd641372e2d0f74.png";
+const blue7_namespaceObject = __webpack_require__.p + "images/4cdb1bd641372e2d0f74.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue8.png
-const blue8_namespaceObject = __webpack_require__.p + "02a9eec68518951fc18e.png";
+const blue8_namespaceObject = __webpack_require__.p + "images/02a9eec68518951fc18e.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue9.png
-const blue9_namespaceObject = __webpack_require__.p + "d3371911f8f0d84b5585.png";
+const blue9_namespaceObject = __webpack_require__.p + "images/d3371911f8f0d84b5585.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue10.png
-const blue10_namespaceObject = __webpack_require__.p + "c61c9f73492d8cd7027c.png";
+const blue10_namespaceObject = __webpack_require__.p + "images/c61c9f73492d8cd7027c.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue11.png
-const blue11_namespaceObject = __webpack_require__.p + "f7e6552a92e4b878107a.png";
+const blue11_namespaceObject = __webpack_require__.p + "images/f7e6552a92e4b878107a.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/blue/blue12.png
-const blue12_namespaceObject = __webpack_require__.p + "204f9160083e529ab763.png";
+const blue12_namespaceObject = __webpack_require__.p + "images/204f9160083e529ab763.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown1.png
-const brown1_namespaceObject = __webpack_require__.p + "ac85e7db9ab360fe235a.png";
+const brown1_namespaceObject = __webpack_require__.p + "images/ac85e7db9ab360fe235a.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown2.png
-const brown2_namespaceObject = __webpack_require__.p + "c44579505d0d3ccfd7c8.png";
+const brown2_namespaceObject = __webpack_require__.p + "images/c44579505d0d3ccfd7c8.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown3.png
-const brown3_namespaceObject = __webpack_require__.p + "caababcab21e08510c27.png";
+const brown3_namespaceObject = __webpack_require__.p + "images/caababcab21e08510c27.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown4.png
-const brown4_namespaceObject = __webpack_require__.p + "e387b64a537a0fb25c84.png";
+const brown4_namespaceObject = __webpack_require__.p + "images/e387b64a537a0fb25c84.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown5.png
-const brown5_namespaceObject = __webpack_require__.p + "709f87f82c146ab3189a.png";
+const brown5_namespaceObject = __webpack_require__.p + "images/709f87f82c146ab3189a.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown6.png
-const brown6_namespaceObject = __webpack_require__.p + "23453f970c4a388f8b68.png";
+const brown6_namespaceObject = __webpack_require__.p + "images/23453f970c4a388f8b68.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown7.png
-const brown7_namespaceObject = __webpack_require__.p + "7da5050420b14d67a481.png";
+const brown7_namespaceObject = __webpack_require__.p + "images/7da5050420b14d67a481.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown8.png
-const brown8_namespaceObject = __webpack_require__.p + "2126fcd965be3b428dca.png";
+const brown8_namespaceObject = __webpack_require__.p + "images/2126fcd965be3b428dca.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown9.png
-const brown9_namespaceObject = __webpack_require__.p + "3d69a01cdd56175f304e.png";
+const brown9_namespaceObject = __webpack_require__.p + "images/3d69a01cdd56175f304e.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown10.png
-const brown10_namespaceObject = __webpack_require__.p + "703068f44f9153534f9c.png";
+const brown10_namespaceObject = __webpack_require__.p + "images/703068f44f9153534f9c.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown11.png
-const brown11_namespaceObject = __webpack_require__.p + "157fd0a92444cc2a245f.png";
+const brown11_namespaceObject = __webpack_require__.p + "images/157fd0a92444cc2a245f.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown12.png
-const brown12_namespaceObject = __webpack_require__.p + "920b1409d3f7d006e764.png";
+const brown12_namespaceObject = __webpack_require__.p + "images/920b1409d3f7d006e764.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown13.png
-const brown13_namespaceObject = __webpack_require__.p + "a8d77ff5b5eaa534b968.png";
+const brown13_namespaceObject = __webpack_require__.p + "images/a8d77ff5b5eaa534b968.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown14.png
-const brown14_namespaceObject = __webpack_require__.p + "f5d21e1965d8ec808bc2.png";
+const brown14_namespaceObject = __webpack_require__.p + "images/f5d21e1965d8ec808bc2.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown15.png
-const brown15_namespaceObject = __webpack_require__.p + "036f8f91eccd0e8f9708.png";
+const brown15_namespaceObject = __webpack_require__.p + "images/036f8f91eccd0e8f9708.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown16.png
-const brown16_namespaceObject = __webpack_require__.p + "1fd61bbd111986a0965a.png";
+const brown16_namespaceObject = __webpack_require__.p + "images/1fd61bbd111986a0965a.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown17.png
-const brown17_namespaceObject = __webpack_require__.p + "6a53cc04a2d6cbb63677.png";
+const brown17_namespaceObject = __webpack_require__.p + "images/6a53cc04a2d6cbb63677.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown18.png
-const brown18_namespaceObject = __webpack_require__.p + "c537bfb2cd284c9667ae.png";
+const brown18_namespaceObject = __webpack_require__.p + "images/c537bfb2cd284c9667ae.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown19.png
-const brown19_namespaceObject = __webpack_require__.p + "199841521c55940d0d03.png";
+const brown19_namespaceObject = __webpack_require__.p + "images/199841521c55940d0d03.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown20.png
-const brown20_namespaceObject = __webpack_require__.p + "1182a8f80bd2272b3d07.png";
+const brown20_namespaceObject = __webpack_require__.p + "images/1182a8f80bd2272b3d07.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/brown/brown21.png
-const brown21_namespaceObject = __webpack_require__.p + "3a8e72879e11c315c59d.png";
+const brown21_namespaceObject = __webpack_require__.p + "images/3a8e72879e11c315c59d.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green1.png
-const green1_namespaceObject = __webpack_require__.p + "ee9218f13d2668469469.png";
+const green1_namespaceObject = __webpack_require__.p + "images/ee9218f13d2668469469.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green2.png
-const green2_namespaceObject = __webpack_require__.p + "1a1b4da17274000ce3a8.png";
+const green2_namespaceObject = __webpack_require__.p + "images/1a1b4da17274000ce3a8.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green3.png
-const green3_namespaceObject = __webpack_require__.p + "24a6de1c53f0cc14bb95.png";
+const green3_namespaceObject = __webpack_require__.p + "images/24a6de1c53f0cc14bb95.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green4.png
-const green4_namespaceObject = __webpack_require__.p + "d9d9a3dc837a4101fc61.png";
+const green4_namespaceObject = __webpack_require__.p + "images/d9d9a3dc837a4101fc61.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green5.png
-const green5_namespaceObject = __webpack_require__.p + "0634bb414e136066d46f.png";
+const green5_namespaceObject = __webpack_require__.p + "images/0634bb414e136066d46f.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green6.png
-const green6_namespaceObject = __webpack_require__.p + "ca07046ad17914ec04d0.png";
+const green6_namespaceObject = __webpack_require__.p + "images/ca07046ad17914ec04d0.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green7.png
-const green7_namespaceObject = __webpack_require__.p + "f9d8238c6770bdc97f73.png";
+const green7_namespaceObject = __webpack_require__.p + "images/f9d8238c6770bdc97f73.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green8.png
-const green8_namespaceObject = __webpack_require__.p + "bc5f83ed7ced1b832494.png";
+const green8_namespaceObject = __webpack_require__.p + "images/bc5f83ed7ced1b832494.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green9.png
-const green9_namespaceObject = __webpack_require__.p + "bc368631ac89e5bf0891.png";
+const green9_namespaceObject = __webpack_require__.p + "images/bc368631ac89e5bf0891.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green10.png
-const green10_namespaceObject = __webpack_require__.p + "766beb973fc76ac9564e.png";
+const green10_namespaceObject = __webpack_require__.p + "images/766beb973fc76ac9564e.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green11.png
-const green11_namespaceObject = __webpack_require__.p + "305fdb3b09ad909c598f.png";
+const green11_namespaceObject = __webpack_require__.p + "images/305fdb3b09ad909c598f.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green12.png
-const green12_namespaceObject = __webpack_require__.p + "b786b0a5e0aaf884c27b.png";
+const green12_namespaceObject = __webpack_require__.p + "images/b786b0a5e0aaf884c27b.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green13.png
-const green13_namespaceObject = __webpack_require__.p + "b3e3243ad3927ba66da7.png";
+const green13_namespaceObject = __webpack_require__.p + "images/b3e3243ad3927ba66da7.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green14.png
-const green14_namespaceObject = __webpack_require__.p + "20b6b1be80bef6932ab0.png";
+const green14_namespaceObject = __webpack_require__.p + "images/20b6b1be80bef6932ab0.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green15.png
-const green15_namespaceObject = __webpack_require__.p + "63677766cd3a4cea8da0.png";
+const green15_namespaceObject = __webpack_require__.p + "images/63677766cd3a4cea8da0.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green16.png
-const green16_namespaceObject = __webpack_require__.p + "608e0aecaccf5ff896fb.png";
+const green16_namespaceObject = __webpack_require__.p + "images/608e0aecaccf5ff896fb.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green17.png
-const green17_namespaceObject = __webpack_require__.p + "0ebea1f5b536a0b85765.png";
+const green17_namespaceObject = __webpack_require__.p + "images/0ebea1f5b536a0b85765.png";
 ;// CONCATENATED MODULE: ./src/assets/MythicCards/green/green18.png
-const green18_namespaceObject = __webpack_require__.p + "268edbdc27e016d06a52.png";
+const green18_namespaceObject = __webpack_require__.p + "images/268edbdc27e016d06a52.png";
 ;// CONCATENATED MODULE: ./src/components/Cards/dataCards.js
 
 
