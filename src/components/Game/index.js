@@ -440,6 +440,9 @@ CARD_DESK.addEventListener('click', () => {
       document.querySelector('.dot_blue1').innerHTML -= 1 
     }
     round1 = round1.filter((el, i) => i !== randomIndex)
+    if(round1.length === 0) {
+      document.querySelector('.raund1').classList.add('active')
+    }
   } else if (round2.length !== 0 ) {
     randomIndex = Math.floor(Math.random() * (round2.length))
     document.querySelector('.card').style.backgroundImage = `url(${round2[randomIndex].image})` 
@@ -453,6 +456,9 @@ CARD_DESK.addEventListener('click', () => {
       document.querySelector('.dot_blue2').innerHTML -= 1 
     }
     round2 = round2.filter((el, i) => i !== randomIndex)
+    if(round2.length === 0) {
+      document.querySelector('.raund2').classList.add('active')
+    }
   } else if (round3.length !== 0) {
     randomIndex = Math.floor(Math.random() * (round3.length))
     document.querySelector('.card').style.backgroundImage = `url(${round3[randomIndex].image})` 
@@ -467,6 +473,7 @@ CARD_DESK.addEventListener('click', () => {
     }
     round3 = round3.filter((el, i) => i !== randomIndex)
     if(round3.length === 0) {
+      document.querySelector('.raund3').classList.add('active')
       CARD_DESK.classList.add('inactive')
     }
   } else {
